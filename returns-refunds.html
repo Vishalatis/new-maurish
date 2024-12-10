@@ -1,0 +1,3029 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Maurish Ecommerence</title>
+    <link rel="icon" type="image/png" href="images/logo.jpeg" />
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i"
+    />
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="vendor/bootstrap-4.2.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/owl-carousel-2.3.4/assets/owl.carousel.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- js -->
+    <script src="vendor/jquery-3.3.1/jquery.min.js"></script>
+    <script src="vendor/bootstrap-4.2.1/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/owl-carousel-2.3.4/owl.carousel.min.js"></script>
+    <script src="vendor/nouislider-12.1.0/nouislider.min.js"></script>
+    <script src="js/number.js"></script>
+    <script src="js/main.js"></script>
+    <script src="vendor/svg4everybody-2.1.9/svg4everybody.min.js"></script>
+    <script>
+      svg4everybody();
+    </script>
+    <!-- font - fontawesome -->
+    <link rel="stylesheet" href="vendor/fontawesome-5.6.1/css/all.min.css" />
+    <!-- font - stroyka -->
+    <link rel="stylesheet" href="fonts/stroyka/stroyka.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-97489509-6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-97489509-6");
+    </script>
+  </head>
+
+  <body>
+    <!-- quickview-modal -->
+    <div
+      id="quickview-modal"
+      class="modal fade"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content"></div>
+      </div>
+    </div>
+    <!-- quickview-modal / end -->
+
+    <!-- mobilemenu -->
+    <div class="mobilemenu">
+      <div class="mobilemenu__backdrop"></div>
+      <div class="mobilemenu__body">
+        <div class="mobilemenu__header">
+          <div class="mobilemenu__title">Menu</div>
+          <button type="button" class="mobilemenu__close">
+            <svg width="20px" height="20px">
+              <use xlink:href="images/sprite.svg#cross-20"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="mobilemenu__content">
+          <ul
+            class="nav nav-tabs"
+            id="myTab"
+            role="tablist"
+            style="background: #000; padding-left: 20px"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="home-tab"
+                data-toggle="tab"
+                data-target="#home"
+                type="button"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+                style="border-left: 1px solid transparent !important"
+              >
+                MEN
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="profile-tab"
+                data-toggle="tab"
+                data-target="#profile"
+                type="button"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+                style="border-left: 1px solid #ddd !important"
+              >
+                WOMEN
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="contact-tab"
+                data-toggle="tab"
+                data-target="#contact"
+                type="button"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false"
+                style="border-left: 1px solid #ddd !important"
+              >
+                KIDS
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+            >
+              <ul
+                class="mobile-links mobile-links--level--0"
+                data-collapse
+                data-collapse-opened-class="mobile-links__item--open"
+              >
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link"
+                      >MEN</a
+                    >
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link"
+                      >TOP Wear</a
+                    >
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link"
+                      >Bottom Wear</a
+                    >
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link">
+                      themes
+                    </a>
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link">
+                      sneakers
+                    </a>
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link">
+                      mrish x google
+                    </a>
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="profile"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+            >
+              <ul
+                class="mobile-links mobile-links--level--0"
+                data-collapse
+                data-collapse-opened-class="mobile-links__item--open"
+              >
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link"
+                      >WOMEN</a
+                    >
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link"
+                      >Top wear</a
+                    >
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link"
+                      >Bottom Wear</a
+                    >
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link"
+                      >Sunglasses</a
+                    >
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="contact"
+              role="tabpanel"
+              aria-labelledby="contact-tab"
+            >
+              <ul
+                class="mobile-links mobile-links--level--0"
+                data-collapse
+                data-collapse-opened-class="mobile-links__item--open"
+              >
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link"
+                      >Kids</a
+                    >
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link"
+                      >Top Wear</a
+                    >
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="mobile-links__item" data-collapse-item>
+                  <div class="mobile-links__item-title">
+                    <a href="product-list.html" class="mobile-links__item-link"
+                      >Bottom Wear</a
+                    >
+                    <button
+                      class="mobile-links__item-toggle"
+                      type="button"
+                      data-collapse-trigger
+                    >
+                      <svg
+                        class="mobile-links__item-arrow"
+                        width="12px"
+                        height="7px"
+                      >
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                        ></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="mobile-links__item-sub-links"
+                    data-collapse-content
+                  >
+                    <ul class="mobile-links mobile-links--level--1">
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Caps</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Hoodies</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >T-shirt</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Eyeware</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bottoms</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Bags</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Wallets</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Belts</a
+                          >
+                        </div>
+                      </li>
+                      <li class="mobile-links__item" data-collapse-item>
+                        <div class="mobile-links__item-title">
+                          <a
+                            href="product-list.html"
+                            class="mobile-links__item-link"
+                            >Watch</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            class="mobile-links mobile-links--level--0"
+            data-collapse
+            data-collapse-opened-class="mobile-links__item--open"
+          >
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a href="my-account.html" class="mobile-links__item-link"
+                  >MY ACCOUNT</a
+                >
+                <button
+                  class="mobile-links__item-toggle"
+                  type="button"
+                  data-collapse-trigger
+                >
+                  <svg
+                    class="mobile-links__item-arrow"
+                    width="12px"
+                    height="7px"
+                  >
+                    <use
+                      xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="mobile-links__item-sub-links" data-collapse-content>
+                <ul class="mobile-links mobile-links--level--1">
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="login.html" class="mobile-links__item-link"
+                        >Login</a
+                      >
+                      <button
+                        class="mobile-links__item-toggle"
+                        type="button"
+                        data-collapse-trigger
+                      >
+                        <svg
+                          class="mobile-links__item-arrow"
+                          width="12px"
+                          height="7px"
+                        >
+                          <use
+                            xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                          ></use>
+                        </svg>
+                      </button>
+                    </div>
+                    <div
+                      class="mobile-links__item-sub-links"
+                      data-collapse-content
+                    >
+                      <ul class="mobile-links mobile-links--level--2">
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a
+                              href="my-profile.html"
+                              class="mobile-links__item-link"
+                              >My Profile</a
+                            >
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="cart.html" class="mobile-links__item-link"
+                        >Cart</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="checkout.html" class="mobile-links__item-link"
+                        >Checkout</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="wishlist.html" class="mobile-links__item-link"
+                        >Wishlist</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="compare.html" class="mobile-links__item-link"
+                        >Compare</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="account.html" class="mobile-links__item-link"
+                        >My Account</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="track-order.html" class="mobile-links__item-link"
+                        >Track Order</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- mobilemenu / end -->
+
+    <!-- site -->
+    <div class="site">
+      <!-- mobile site__header -->
+      <header class="site__header d-lg-none">
+        <div class="mobile-header mobile-header--sticky mobile-header--stuck">
+          <div class="mobile-header__panel">
+            <div class="container">
+              <div class="mobile-header__body">
+                <button class="mobile-header__menu-button">
+                  <svg width="18px" height="14px">
+                    <use xlink:href="images/sprite.svg#menu-18x14"></use>
+                  </svg>
+                </button>
+                <a class="mobile-header__logo" href="index.html">
+                  <img
+                    src="images/logo.png"
+                    alt="logo"
+                    style="width: 80px; height: 40px"
+                  />
+                </a>
+                <div class="mobile-header__search">
+                  <form class="mobile-header__search-form" action="#">
+                    <input
+                      class="mobile-header__search-input"
+                      name="search"
+                      placeholder="Search over 10,000 products"
+                      aria-label="Site search"
+                      type="text"
+                      autocomplete="off"
+                    />
+                    <button
+                      class="mobile-header__search-button mobile-header__search-button--submit"
+                      type="submit"
+                    >
+                      <svg width="20px" height="20px">
+                        <use xlink:href="images/sprite.svg#search-20"></use>
+                      </svg>
+                    </button>
+                    <button
+                      class="mobile-header__search-button mobile-header__search-button--close"
+                      type="button"
+                    >
+                      <svg width="20px" height="20px">
+                        <use xlink:href="images/sprite.svg#cross-20"></use>
+                      </svg>
+                    </button>
+                    <div class="mobile-header__search-body"></div>
+                  </form>
+                </div>
+                <div class="mobile-header__indicators">
+                  <div
+                    class="indicator indicator--mobile-search indicator--mobile d-sm-none"
+                  >
+                    <button class="indicator__button">
+                      <span class="indicator__area">
+                        <img
+                          src="images/icons/mobile-search.svg"
+                          alt="img"
+                          style="width: 35px; height: 35px"
+                      /></span>
+                    </button>
+                  </div>
+                  <div class="indicator indicator--mobile">
+                    <a
+                      href="cart.html"
+                      class="indicator__button"
+                      style="margin: 10px"
+                    >
+                      <img
+                        src="images/icons/5.svg"
+                        alt="bag"
+                        style="width: 35px; height: 35px"
+                      />
+                      <span class="indicator__value">3</span>
+                    </a>
+                  </div>
+
+                  <div class="indicator indicator--mobile d-none">
+                    <a href="profile.html" class="indicator__button"
+                      ><span class="indicator__area">
+                        <img
+                          src="images/icons/6.svg"
+                          alt="bag"
+                          style="width: 25px; height: 25px"
+                        />
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- mobile site__header / end -->
+
+      <!-- desktop site__header -->
+      <header class="site__header d-lg-block d-none">
+        <div class="site-header">
+          <!-- .topbar -->
+          <div class="site-header__topbar topbar">
+            <div class="topbar__container">
+              <div class="topbar__row">
+                <div class="topbar__spring"></div>
+                <div
+                  class="topbar__item topbar__item--link"
+                  style="display: flex; justify-content: center"
+                >
+                  <ul
+                    class="nav nav-tabs"
+                    id="myTab"
+                    role="tablist"
+                    style="border-bottom: none !important"
+                  >
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link active"
+                        id="MEN-tab"
+                        data-toggle="tab"
+                        data-target="#MEN"
+                        type="button"
+                        role="tab"
+                        aria-controls="MEN"
+                        aria-selected="true"
+                      >
+                        MEN
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        id="WOMEN-tab"
+                        data-toggle="tab"
+                        data-target="#WOMEN"
+                        type="button"
+                        role="tab"
+                        aria-controls="WOMEN"
+                        aria-selected="false"
+                      >
+                        WOMEN
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        id="KIDS-tab"
+                        data-toggle="tab"
+                        data-target="#KIDS"
+                        type="button"
+                        role="tab"
+                        aria-controls="KIDS"
+                        aria-selected="false"
+                      >
+                        KIDS
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="topbar__item">
+                  <div class="d-flex top-bar-social-icons">
+                    <a href="">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="vertical-line"></div>
+                  <div class="topbar-downloads">
+                    <a href="">
+                      <img
+                        src="images/banners/app.svg"
+                        alt="app"
+                        class="img-fluid"
+                      />
+                    </a>
+                    <div class="vertical-line"></div>
+                    <a href="">
+                      <img
+                        src="images/banners/google.svg"
+                        alt="app"
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                  <div class="vertical-line"></div>
+                  <div class="topbar-right-links">
+                    <a href="track-order.html">Track My Order</a>
+                    <div class="vertical-line"></div>
+                    <a href="contact-us.html">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .topbar / end -->
+
+          <div class="site-header__nav-panel">
+            <div class="nav-panel">
+              <div class="nav-panel__container container">
+                <div class="nav-panel__row">
+                  <div class="nav-panel__logo">
+                    <a href="index.html">
+                      <img
+                        src="./images/logo.png"
+                        alt="logo"
+                        style="width: 150px; height: 60px"
+                      />
+                    </a>
+                  </div>
+                  <!-- .nav-links -->
+
+                  <div
+                    class="tab-content nav-panel__nav-links nav-links mx-auto"
+                    id="myTabContent"
+                  >
+                    <div
+                      class="tab-pane fade show active"
+                      id="MEN"
+                      role="tabpanel"
+                      aria-labelledby="MEN-tab"
+                    >
+                      <ul class="nav-links__list">
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >MEN <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <div
+                            style="
+                              position: absolute;
+                              top: 6px;
+                              margin-left: 50px;
+                            "
+                          >
+                            <img
+                              src="images/icons/7.svg"
+                              alt="img"
+                              style="width: 35px; height: 18px"
+                            />
+                          </div>
+                          <a href="index.html" style="position: relative">
+                            <span
+                              >Top Wear
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >Bottom Wear
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >themes
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >sneakers
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >accessories
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >membership
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="WOMEN"
+                      role="tabpanel"
+                      aria-labelledby="WOMEN-tab"
+                    >
+                      <ul class="nav-links__list">
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >WOMEN
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >Top Wear
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >Bottom Wear
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >themes
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >sneakers
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >accessories
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div
+                      class="tab-pane fade"
+                      id="KIDS"
+                      role="tabpanel"
+                      aria-labelledby="KIDS-tab"
+                    >
+                      <ul class="nav-links__list">
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >Just Launched
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >Bestsellers
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >Winter 24
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >Boys
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >Girls
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >Themes
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+
+                        <li
+                          class="nav-links__item nav-links__item--with-submenu"
+                        >
+                          <a href="index.html">
+                            <span
+                              >Membership
+                              <i class="fas fa-angle-down mx-2"></i> </span
+                          ></a>
+                          <div class="nav-links__menu">
+                            <!-- .menu -->
+                            <ul class="menu menu--layout--classic">
+                              <li><a href="product-list.html">Caps</a></li>
+                              <li><a href="product-list.html">Hoodies</a></li>
+                              <li><a href="product-list.html">T-shirt</a></li>
+                              <li><a href="product-list.html">Eyeware</a></li>
+                              <li><a href="product-list.html">Bottoms</a></li>
+                              <li><a href="product-list.html">Bags</a></li>
+                              <li><a href="product-list.html">Wallets</a></li>
+                              <li><a href="product-list.html">Belts</a></li>
+                              <li><a href="product-list.html">Watch</a></li>
+                            </ul>
+                            <!-- .menu / end -->
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- .nav-links / end -->
+                  <div class="nav-panel__indicators">
+                    <div class="indicator indicator--trigger--click">
+                      <button type="button" class="indicator__button">
+                        <span class="indicator__area">
+                          <!-- <i
+                            class="fas fa-search indicator__icon"
+                            width="20px"
+                            height="20px"
+                          ></i> -->
+                          <img
+                            src="images/icons/1.svg"
+                            alt="search"
+                            class="indicator__icon"
+                            style="width: 20px; height: 20px"
+                          />
+
+                          <i
+                            class="fas fa-times indicator__icon indicator__icon--open"
+                            width="20px"
+                            height="20px"
+                          ></i>
+                        </span>
+                      </button>
+                      <div class="indicator__dropdown">
+                        <div class="drop-search">
+                          <form action="#" class="drop-search__form">
+                            <input
+                              class="drop-search__input"
+                              name="search"
+                              placeholder="Search over 10,000 products"
+                              aria-label="Site search"
+                              type="text"
+                              autocomplete="off"
+                            />
+                            <button
+                              class="drop-search__button drop-search__button--submit"
+                              type="submit"
+                            >
+                              <i
+                                class="fas fa-search"
+                                width="20px"
+                                height="20px"
+                              ></i>
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="indicator indicator--trigger--click">
+                      <a href="#" class="indicator__button"
+                        ><span class="indicator__area">
+                          <img
+                            src="images/icons/2.svg"
+                            alt="search"
+                            class=""
+                            style="width: 20px; height: 20px"
+                          /> </span
+                      ></a>
+                      <div class="indicator__dropdown">
+                        <!-- .drop -->
+                        <div class="dropcart__products-list">
+                          <ul class="menu menu--layout--topbar">
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="my-account.html">Orders</a></li>
+                          </ul>
+                        </div>
+                        <!-- . / end -->
+                      </div>
+                    </div>
+
+                    <div class="indicator">
+                      <a href="wishlist.html" class="indicator__button"
+                        ><span class="indicator__area">
+                          <img
+                            src="images/icons/3.svg"
+                            alt="wishlist"
+                            class=""
+                            style="width: 20px; height: 20px"
+                          />
+                          <span class="indicator__value">0</span></span
+                        >
+                      </a>
+                    </div>
+                    <div class="indicator indicator--trigger--click">
+                      <a href="cart.html" class="indicator__button"
+                        ><span class="indicator__area">
+                          <img
+                            src="images/icons/4.svg"
+                            alt="wishlist"
+                            class=""
+                            style="width: 20px; height: 20px"
+                          />
+                          <span class="indicator__value">3</span></span
+                        ></a
+                      >
+                      <div class="indicator__dropdown">
+                        <!-- .dropcart -->
+                        <div class="dropcart">
+                          <div class="dropcart__products-list">
+                            <div class="dropcart__product">
+                              <div class="dropcart__product-image">
+                                <a href="product.html"
+                                  ><img src="images/products/caps/1.jpg" alt=""
+                                /></a>
+                              </div>
+                              <div class="dropcart__product-info">
+                                <div class="dropcart__product-name">
+                                  <a href="product.html"
+                                    >Men Embroidered Cotton Baseball Cap</a
+                                  >
+                                </div>
+                                <ul class="dropcart__product-options">
+                                  <li>Color: Black</li>
+                                  <li>Material: Cotton</li>
+                                </ul>
+                                <div class="dropcart__product-meta">
+                                  <span class="dropcart__product-quantity"
+                                    >2</span
+                                  >
+                                  x
+                                  <span class="dropcart__product-price"
+                                    >₹ 699.00</span
+                                  >
+                                </div>
+                              </div>
+                              <button
+                                type="button"
+                                class="dropcart__product-remove btn btn-light btn-sm btn-svg-icon"
+                              >
+                                <svg width="10px" height="10px">
+                                  <use
+                                    xlink:href="images/sprite.svg#cross-10"
+                                  ></use>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="dropcart__totals">
+                            <table>
+                              <tr>
+                                <th>Subtotal</th>
+                                <td>₹ 699.00</td>
+                              </tr>
+                              <tr>
+                                <th>Shipping</th>
+                                <td>₹ 25.00</td>
+                              </tr>
+                              <tr>
+                                <th>Tax</th>
+                                <td>₹ 0.00</td>
+                              </tr>
+                              <tr>
+                                <th>Total</th>
+                                <td>₹ 724.00</td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div class="dropcart__buttons">
+                            <a
+                              class="btn btn-secondary"
+                              href="cart.html"
+                              style="font-size: 12px"
+                              >VIEW CART</a
+                            >
+                            <a
+                              class="btn btn-primary"
+                              href="checkout.html"
+                              style="font-size: 12px"
+                              >CHECKOUT</a
+                            >
+                          </div>
+                        </div>
+                        <!-- .dropcart / end -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- desktop site__header / end -->
+
+      <!-- site__body -->
+      <div class="site__body">
+        <div class="page-header breadcumb-section">
+          <div class="page-header__container container">
+            <div class="page-header__breadcrumb">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item text-danger">
+                    <a href="index.html">Home</a>
+                    <svg class="breadcrumb-arrow" width="6px" height="9px">
+                      <use
+                        xlink:href="images/sprite.svg#arrow-rounded-right-6x9"
+                      ></use>
+                    </svg>
+                  </li>
+
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Returns & Refunds
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="block">
+          <div class="container">
+            <div class="document">
+              <div class="document__header">
+                <h1 class="document__title">Returns & Refunds</h1>
+              </div>
+              <div class="document__content typography">
+                <p style="text-align: justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  facilisis neque ut purus fermentum, ac pretium nibh facilisis.
+                  Vivamus venenatis viverra iaculis. Suspendisse tempor orci non
+                  sapien ullamcorper dapibus. Suspendisse at velit diam. Donec
+                  pharetra nec enim blandit vulputate. Suspendisse potenti.
+                  Pellentesque et molestie ante. In feugiat ante vitae ultricies
+                  malesuada.
+                </p>
+                <p style="text-align: justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  facilisis neque ut purus fermentum, ac pretium nibh facilisis.
+                  Vivamus venenatis viverra iaculis. Suspendisse tempor orci non
+                  sapien ullamcorper dapibus. Suspendisse at velit diam. Donec
+                  pharetra nec enim blandit vulputate. Suspendisse potenti.
+                  Pellentesque et molestie ante. In feugiat ante vitae ultricies
+                  malesuada.
+                </p>
+                <p style="text-align: justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  facilisis neque ut purus fermentum, ac pretium nibh facilisis.
+                  Vivamus venenatis viverra iaculis. Suspendisse tempor orci non
+                  sapien ullamcorper dapibus. Suspendisse at velit diam. Donec
+                  pharetra nec enim blandit vulputate. Suspendisse potenti.
+                  Pellentesque et molestie ante. In feugiat ante vitae ultricies
+                  malesuada.
+                </p>
+                <p style="text-align: justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  facilisis neque ut purus fermentum, ac pretium nibh facilisis.
+                  Vivamus venenatis viverra iaculis. Suspendisse tempor orci non
+                  sapien ullamcorper dapibus. Suspendisse at velit diam. Donec
+                  pharetra nec enim blandit vulputate. Suspendisse potenti.
+                  Pellentesque et molestie ante. In feugiat ante vitae ultricies
+                  malesuada.
+                </p>
+                <p style="text-align: justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  facilisis neque ut purus fermentum, ac pretium nibh facilisis.
+                  Vivamus venenatis viverra iaculis. Suspendisse tempor orci non
+                  sapien ullamcorper dapibus. Suspendisse at velit diam. Donec
+                  pharetra nec enim blandit vulputate. Suspendisse potenti.
+                  Pellentesque et molestie ante. In feugiat ante vitae ultricies
+                  malesuada.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- site__body / end -->
+
+      <!-- footer section start -->
+      <div class="main_footer">
+        <!-- main footer start -->
+        <footer class="site__footer">
+          <div class="site-footer">
+            <div class="container">
+              <div class="site-footer__widgets">
+                <div class="row">
+                  <div class="col-12">
+                    <img
+                      src="images/logo.png"
+                      alt="logo"
+                      class="img-fluid mb-3"
+                    />
+                  </div>
+                  <div class="col-6 col-md-3 col-lg-2">
+                    <div class="site-footer__widget footer-links">
+                      <h5 class="footer-links__title">Support</h5>
+                      <ul class="footer-links__list">
+                        <li class="footer-links__item">
+                          <a href="about-us.html" class="footer-links__link"
+                            >About Us</a
+                          >
+                        </li>
+                        <li class="footer-links__item">
+                          <a
+                            href="terms-and-conditions.html"
+                            class="footer-links__link"
+                            >Term of Service</a
+                          >
+                        </li>
+                        <li class="footer-links__item">
+                          <a
+                            href="privacy-policy.html"
+                            class="footer-links__link"
+                            >Privacy Policy</a
+                          >
+                        </li>
+
+                        <li class="footer-links__item">
+                          <a href="faqs.html" class="footer-links__link"
+                            >FAQ's</a
+                          >
+                        </li>
+                        <li class="footer-links__item">
+                          <a
+                            href="track-order-delivery.html"
+                            class="footer-links__link"
+                            >Track Your Order</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-3 col-lg-2">
+                    <div class="site-footer__widget footer-links">
+                      <h5 class="footer-links__title">Shop</h5>
+                      <ul class="footer-links__list">
+                        <li class="footer-links__item">
+                          <a href="product-list.html" class="footer-links__link"
+                            >Men’s Shopping</a
+                          >
+                        </li>
+                        <li class="footer-links__item">
+                          <a href="product-list.html" class="footer-links__link"
+                            >Women’s Shopping</a
+                          >
+                        </li>
+                        <li class="footer-links__item">
+                          <a href="product-list.html" class="footer-links__link"
+                            >Kids Shopping</a
+                          >
+                        </li>
+                        <li class="footer-links__item">
+                          <a href="brands.html" class="footer-links__link"
+                            >Brands</a
+                          >
+                        </li>
+                        <li class="footer-links__item">
+                          <a
+                            href="returns-refunds.html"
+                            class="footer-links__link"
+                            >Return</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-3 col-lg-2">
+                    <div class="site-footer__widget footer-links">
+                      <h5 class="footer-links__title">Company</h5>
+                      <ul class="footer-links__list">
+                        <li class="footer-links__item">
+                          <a href="about-us.html" class="footer-links__link"
+                            >Our Story</a
+                          >
+                        </li>
+                        <li class="footer-links__item">
+                          <a href="blog.html" class="footer-links__link"
+                            >Blog</a
+                          >
+                        </li>
+
+                        <li class="footer-links__item">
+                          <a href="my-account.html" class="footer-links__link"
+                            >My Accounts</a
+                          >
+                        </li>
+
+                        <li class="footer-links__item">
+                          <a
+                            href="privacy-policy.html"
+                            class="footer-links__link"
+                            >Cookie Policy</a
+                          >
+                        </li>
+                        <li class="footer-links__item">
+                          <a href="compare.html" class="footer-links__link"
+                            >Compare</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-3 col-lg-2">
+                    <div class="site-footer__widget footer-links">
+                      <h5 class="footer-links__title">Contact us</h5>
+                      <ul class="footer-contacts__contacts">
+                        <li class="mb-2">
+                          <a href="">
+                            <img
+                              src="images/icons/10.svg"
+                              alt="img"
+                              style="width: 15px"
+                            />
+                            1-888-923-8044
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="">
+                            <img
+                              src="images/icons/10.svg"
+                              alt="img"
+                              style="width: 15px"
+                            />
+                            1-888-923-8044
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="">
+                            <img
+                              src="images/icons/11.svg"
+                              alt="img"
+                              style="width: 15px"
+                            />
+                            help@maurish.com
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="subscribe_content">
+                      <h5>Clearance Sales</h5>
+                      <h5>
+                        <strong>Up to 70% Off.</strong> All Sales are Final!
+                      </h5>
+                      <form action="#" class="mt-3">
+                        <div class="input-group mb-3" style="flex-wrap: nowrap">
+                          <input
+                            type="text"
+                            class="subscribe_input"
+                            placeholder="Subcribe Your Email"
+                            aria-label="Recipient's username"
+                            aria-describedby="button-addon2"
+                          />
+                          <div class="input-group-append">
+                            <button
+                              class="subscrbe_btn"
+                              type="button"
+                              id="button-addon2"
+                            >
+                              Subscribe
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-12 col-lg-4 offset-lg-6">
+                    <div class="site-footer__widget footer-contacts">
+                      <h5 class="footer-links__title_download">Download App</h5>
+                      <div>
+                        <a href="">
+                          <img
+                            src="images/banners/app.svg"
+                            alt="img"
+                            style="width: 140px; height: 40px"
+                          />
+                        </a>
+                        <a href="" style="width: 140px; height: 40px">
+                          <img
+                            src="images/banners/app.svg"
+                            alt="img"
+                            style="width: 140px; height: 40px"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="site-footer__bottom">
+            <div class="site-footer__copyright">
+              <a target="_blank" href="index.html" class="text-dark"
+                >© 2024 All rights reserved.</a
+              >
+            </div>
+            <div class="site-footer__payments">
+              <img src="images/payments.png" alt="" />
+            </div>
+            <div class="site-footer__payments">
+              <ul class="footer-newsletter__social-links">
+                <li
+                  class="footer-newsletter__social-link footer-newsletter__social-link--facebook"
+                >
+                  <a href="" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li
+                  class="footer-newsletter__social-link footer-newsletter__social-link--twitter"
+                >
+                  <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li
+                  class="footer-newsletter__social-link footer-newsletter__social-link--youtube"
+                >
+                  <a href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li
+                  class="footer-newsletter__social-link footer-newsletter__social-link--instagram"
+                >
+                  <a href="" target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <!-- main footer end -->
+        <!-- footer section end -->
+      </div>
+      <!-- footer section end -->
+    </div>
+    <!-- site / end -->
+  </body>
+</html>
