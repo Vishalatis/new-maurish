@@ -2476,6 +2476,10 @@ p {
   .wishlist_btn {
     font-size: 12px;
   }
+  .track_order_card_middle_right {
+    display: flex;
+    gap: 5px;
+  }
 }
 @media (min-width: 490px) and (max-width: 768px) {
   .nav-tabs .nav-link {
